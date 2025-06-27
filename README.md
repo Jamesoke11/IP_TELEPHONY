@@ -67,13 +67,10 @@ Configure the voice vlan on the switch
  access-class SWITCH-ACCESS in  
 
 #SSH  
-ip domain name ADMIN-ACCESS  
+ip domain name SECURE-ACCESS  
 crypto key generate rsa  
   1024  
 username james secret cisco1  
 line vty 0 15  
 login local  
 transport input ssh  
-# IP_TELEPHONY
-# IP_TELEPHONY
-# IP_TELEPHONY
